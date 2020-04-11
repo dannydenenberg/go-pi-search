@@ -90,7 +90,7 @@ func loadPi() {
 		filePath := digitFolderName + "/" + fileN
 		dat, _ := ioutil.ReadFile(filePath)
 		digits += strings.TrimSpace(string(dat))
-		fmt.Printf("Loaded %v...\n" + fileN)
+		fmt.Printf("Loaded %v...\n", fileN)
 	}
 
 }
